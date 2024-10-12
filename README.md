@@ -1,27 +1,26 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
 # Boas vindas ao repositório do projeto Arte com Pixels!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+Projeto desenvolvido como requisito parcial para conclusão do módulo de Fundamentos do Desenvolvimento Web do curso de Desenvolvimento Web da Trybe. Neste projeto, é implementada uma paleta de cores utilizando **Javascript**, **CSS** e **HTML**.
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto à partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+<div align="center">
+
+   ![Gravação de Tela 2024-10-12 às 16 07 59](https://github.com/user-attachments/assets/8baa74cb-febe-4bef-9b5e-094fc1449ae9)
+
+  
+</div>
+
+
+ 
+
+
+
 
 ---
 
 # Sumário
 
 - [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de Entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
+- [Data de Entrega](#data-de-entrega)
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
@@ -39,9 +38,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.](#10---faça-o-quadro-de-pixels-ter-seu-tamanho-definido-pelo-usuário)
     - [11 - Limite o tamanho do mínimo e máximo do board.](#11---limite-o-tamanho-do-mínimo-e-máximo-do-board)
     - [12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.](#12---faça-com-que-as-cores-da-paleta-sejam-geradas-aleatoriamente-ao-carregar-a-página)
-- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
 
 ---
 
@@ -53,129 +49,10 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-## O que deverá ser desenvolvido
-
-- Você irá implementar uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels. Para isto você irá utilizar `javascript`, `css` e `html`.
-
----
-
-### Desenvolvimento
-
-- Implemente uma paleta de cores usando `javascript`, `css` e `html`.
-
----
-
 ## Data de Entrega
 
-  - Será `1` dia de projeto.
+  - Foi `1` dia de projeto.
   - Data de entrega para avaliação final do projeto: `18/03/2021 - 14:00h`.
-
----
-
-## Instruções para entregar seu projeto:
-
-### 🗒ANTES DE COMEÇAR A DESENVOLVER:
-
-1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-010-a-project-pixels-art.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-010-a-project-pixels-art`
-
-2. Instale as dependências e inicialize o projeto
-  * Instale as dependências:
-    * `npm install`
-
-3. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b mariazinha-project-pixels-art`
-
-4. Crie na raiz do projeto os arquivos que você precisará desenvolver:
-  * Verifique se você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/mariazinha/code/**sd-010-a-project-pixels-art**_
-  * Crie os arquivos `index.html`, `style.css` e `script.js`
-    * Exemplo: `touch index.html style.css script.js`
-
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique se as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listados os arquivos em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-6. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin mariazinha-project-pixels-art`
-
-7. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-010-a-project-pixels-art/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Adicione uma descrição para o _Pull Request_, um título que o identifique, e clique no botão verde _"Create pull request"_. Crie da seguinte forma: `[JOAOZINHO] Projeto Pixels Art`
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-010-a-project-pixels-art/pulls) e confira que o seu _Pull Request_ está criado.
-
----
-
-## Durante o desenvolvimento
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  
----
-
-# Como desenvolver
-
-- Este Pull Request deverá conter os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código HTML, CSS e JavaScript, respectivamente.
-
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure o time de instrução.
-
-## Dicas
-
-- Você pode pesquisar sobre a propriedade `display` do CSS, [especificamente sobre as opções `table`, `table-row` e `table-cell`](https://stackoverflow.com/questions/29229523/how-and-why-to-use-display-table-cell-css) para te ajudar a posicionar os elementos;
-
-- [Que tal](https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/) usar um _loop_ para adicionar o mesmo evento em vários elementos? [Ou então](https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/) a técnica de _event bubbling_ combinada com `classList`?
-
-- Se precisar consultar os valores do _CSS_ de um elemento a partir do _JavaScript_, [dê uma olhada aqui](https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp).
-
-- Para alterar alguma propriedade do _CSS_ de um elemento através do _JavaScript_, dê uma olhada no [atributo `style`](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp) do elemento.
-
-- Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/pixels-art`.
-
-## Linter
-
-Para garantir a qualidade do código, vamos utilizar neste projeto os linters `ESLint` e `StyleLint`.
-Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
-e de fácil manutenção! Para rodá-los localmente no projeto, execute os comandos abaixo:
-
-```bash
-npm run lint
-npm run lint:styles
-```
-
-Quando é executado o comando `npm run lint:styles`, ele irá avaliar se os arquivos com a extensão `CSS` estão com o padrão correto.
-
-Quando é executado o comando `npm run lint`, ele irá avaliar se os arquivos com a extensão `JS` e `JSX` estão com o padrão correto.
-
-⚠ **NESTE PROJETO O STYLELINT e ESLINT NÃO SERÃO AVALIADOS. VOCÊ PODE RODAR OS TESTES LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR!** ⚠
 
 ---
 
@@ -416,36 +293,5 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 - Verifica se as cores geradas na paleta são diferentes a cada carregamento da página
 
 - Verifica se a cor preta ainda está presente e é a primeira na sua paleta de cores
-
----
-
-## Depois de terminar o desenvolvimento
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-010-a`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-⚠ Lembre-se de garantir que todas as _issues_ comentadas pelo **Lint** estão resolvidas! ⚠
-
----
-
-### Revisando um pull request
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests das outras pessoas estudantes. Atenção às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
-
-# Avisos Finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://bit.ly/39qMu3s)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
 
 ---
